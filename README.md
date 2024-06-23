@@ -39,7 +39,7 @@ ls
 # README.md  books  main.py
 ```
 
-# READ THE BOOK
+## READ THE BOOK
 
 Change `main.py` so that instead of printing "hello world", it reads the contents of the "frankenstein.txt" and prints it _**all**_ to the console. Call `main()` to run program.
 
@@ -68,7 +68,7 @@ main()
 
 // _Keep in mind that `path_to_file` needs to be relative to wherever you're running the program from. If you're running the program from the root of your project, you would use `books/frankenstein.txt`. The path to the file is a string so it needs to be in quotes!_
 
-# COUNT WORDS
+## COUNT WORDS
 
 Add a new function to your script that takes the text from the book as a string, and returns the number of words in the string. Add a `print()` statement, then run your code to make sure it's doing what you expect. The Frankenstein book should contain `77986` words!
 
@@ -106,7 +106,7 @@ def get_book_text(path):
 main()
 ```
 
-# COUNT CHARACTERS
+## COUNT CHARACTERS
 
 Add a new function to your script that takes the text from the book as a string, and returns the number of times each character appears in the string. Convert any character to lowercase, we don't want duplicates.
 
@@ -185,7 +185,7 @@ print(lowered_string)
 # for frodo
 ```
 
-# PRINT A REPORT
+## PRINT A REPORT
 
 Let's aggregate all the word and character data into a nice report that we can print to console.
 
@@ -399,7 +399,7 @@ def get_book_text(path):
 main()
 ```
 
-# COMMIT TO GIT
+## COMMIT TO GIT
 
 ```bash
 cattelia@Amaterasu:~/Github/bookbot$ git status
