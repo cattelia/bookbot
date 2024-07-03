@@ -6,6 +6,8 @@
 
 # **Building my First Project from Boot.dev - The Bookbot**
 
+![](img/demo.gif)
+
 ## ADD BOOKS
 
 1. Make a new directory called `books`
